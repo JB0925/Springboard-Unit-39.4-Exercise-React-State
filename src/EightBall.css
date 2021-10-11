@@ -1,0 +1,40 @@
+.EightBall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.EightBall-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.EightBall p {
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.EightBall button {
+    margin-top: 10px;
+    width: 150px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.EightBall-colors {
+    display: flex;
+}
+
+.EightBall-colors p {
+    color: black;
+}
